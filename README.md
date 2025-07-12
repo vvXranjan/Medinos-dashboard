@@ -78,7 +78,7 @@ medinos-dash/
 
 ## 📸 Dashboard Preview
 
-![Retail Master Dashboard](assets/Medinos-dash.png)
+<img width="1470" alt="screenshot-netflix" src="assets/Medinos-dash.png">
 
 
 
