@@ -1,51 +1,88 @@
 # 🛍️ Medinos Retail Master Dashboard
 
-A fully responsive, visually appealing React-based dashboard for monitoring order metrics and analytics. This project features protected login, sales data visualizations, user role-based access, and an elegant UI built with TailwindCSS, Framer Motion, and Recharts.
+A full-featured, visually appealing React dashboard built for monitoring retail order metrics, managing users, and analyzing sales performance.
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-- 🔐 **Secure Login System** (Local Auth Simulation)
-- 📊 **Order Metrics Dashboard**
-  - Total Orders
-  - Total Order Amount
-  - Pending / Confirmed / Delivered Orders
-- 📈 **Interactive Graphs**
+- 🔐 **Protected Login System** with user role
+- 📊 **Retail Metrics Dashboard**
+  - Total Orders, Total Amount, Pending / Confirmed / Delivered
+- 📈 **Data Visualizations**
   - Line Chart: Order Amount vs Date
   - Bar Chart: Order Count vs Date
-- 🎨 **Modern UI**
-  - Sidebar with Navigation (Retail Master Options)
-  - Profile Dropdown (Edit Name, Change Password, Help Center, Logout)
-  - Smooth animations with [Framer Motion](https://www.framer.com/motion/)
-- 🌐 **Responsive Design**
-  - Mobile & desktop-friendly layout with TailwindCSS
+- 🧑‍💼 **My Profile Dropdown**
+  - Edit Name, Change Password, Help Center, Logout
+- 🧭 **Sidebar Navigation**
+  - Category, Delivery Boys, Coupons, APK, Warehouse Orders
+- 🎨 **Modern & Responsive UI**
+  - Built using Tailwind CSS + Framer Motion animations
 
 ---
 
-## 🧑‍💻 Tech Stack
+## 🖥️ Tech Stack
 
-- ⚛️ **React JS**
-- 🎨 **Tailwind CSS**
-- 📦 **Recharts** for graphs
-- 🎥 **Framer Motion** for animations
-- 🔐 **React Router DOM** for routing and protected access
+| Technology      | Purpose                  |
+|-----------------|--------------------------|
+| React.js        | Front-end UI             |
+| Tailwind CSS    | Styling & responsiveness |
+| Recharts        | Graphs & data charts     |
+| React Router    | Routing & protection     |
+| Framer Motion   | Animations               |
 
 ---
 
-## 📁 Folder Structure
+## 🧪 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/vvXranjan/medinos-dash.git
+cd medinos-dash
+
+### 2. Install Dependencies
+npm install
+
+
+###3. Start the Development Server
+npm start
+
+🔐 Login Credentials
+Role	Username	Password
+Retail Master	retail	master123
+
+
 medinos-dash/
-├── public/
-├── src/
-│ ├── components/
-│ │ ├── Layout.js
-│ │ ├── Sidebar.js
-│ │ ├── Topbar.js
-│ │ ├── ProtectedRoute.js
-│ ├── pages/
-│ │ ├── Home.js
-│ │ ├── Login.js
-│ │ ├── RetailMaster.js
-│ ├── App.js
-│ ├── index.js
-│ └── index.css
+│
+├── public/                   # Static files
+│
+├── src/                      # Main application
+│   ├── components/           # Reusable components
+│   │   ├── Layout.js
+│   │   ├── Sidebar.js
+│   │   ├── Topbar.js
+│   │   ├── ProtectedRoute.js
+│   │
+│   ├── pages/                # App pages/screens
+│   │   ├── Home.js
+│   │   ├── Login.js
+│   │   ├── RetailMaster.js
+│   │
+│   ├── App.js                # Route management
+│   ├── index.js              # React root render
+│   └── index.css             # Global styles
+
+
+
+🖼️ Dashboard Preview
+📊 Retail Master Dashboard
+- Order metrics
+- Visual graphs
+- Sidebar menu
+- My Profile dropdown
+
+ Future Enhancements
+🔌 Connect to backend APIs for live data
+🔐 Role-based routing (Retailer, Warehouse, Admin)
+📤 Export graphs/data to PDF or CSV
+📱 Progressive Web App (PWA) support
