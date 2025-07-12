@@ -74,7 +74,7 @@ medinos-dash/
 
 
 ## 📸 Dashboard Preview
-## 📸 Dashboard Preview
+
 
 ![Retail Master Dashboard](assets/Medinos-dash.png)
 
