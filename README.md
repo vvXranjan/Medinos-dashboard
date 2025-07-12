@@ -78,7 +78,8 @@ medinos-dash/
 
 ## 📸 Dashboard Preview
 
-![Retail Master Dashboard](assets/Medinos-dash.png)
+![Retail Master Dashboard](https://raw.githubusercontent.com/vvXranjan/Medinos-dashboard/main/assets/Medinos-dash.png)
+
 
 
 
