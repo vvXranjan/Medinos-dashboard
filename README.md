@@ -73,6 +73,10 @@ medinos-dash/
 │   └── index.css             # Global styles
 
 
+## 📸 Dashboard Preview
+
+![Dashboard Screenshot](public/Medinos-dash.png)
+
 
 🖼️ Dashboard Preview
 📊 Retail Master Dashboard
