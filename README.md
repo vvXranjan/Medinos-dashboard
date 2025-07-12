@@ -75,7 +75,7 @@ medinos-dash/
 
 ## 📸 Dashboard Preview
 
-![Dashboard Screenshot](public/Medinos-dash.png)
+public/Medinos-dash.png
 
 
 🖼️ Dashboard Preview
