@@ -1,0 +1,64 @@
+import {
+  FaBox, FaMotorcycle, FaTags, FaAndroid, FaWarehouse,
+  FaEdit, FaKey, FaInfoCircle, FaSignOutAlt
+} from 'react-icons/fa';
+
+const Sidebar = () => {
+  const handleLogout = () => {
+    localStorage.removeItem('userRole');
+    window.location.href = '/login';
+  };
+
+  return (
+    <div className="w-64 bg-white shadow-md h-screen p-4 fixed left-0 top-0 z-50 overflow-y-auto">
+      {/* Logo */}
+      <h1 className="text-3xl font-bold text-red-600 mb-6">Medinos</h1>
+
+      {/* 🧑 My Profile Section */}
+      <div className="mb-8">
+        <h2 className="text-lg font-semibold text-blue-900 mb-3">My Profile</h2>
+        <ul className="space-y-3 text-gray-700 text-sm font-medium">
+          <li className="flex items-center gap-3 hover:text-blue-600 cursor-pointer">
+            <FaEdit /> Edit Name
+          </li>
+          <li className="flex items-center gap-3 hover:text-blue-600 cursor-pointer">
+            <FaKey /> Change Password
+          </li>
+          <li className="flex items-center gap-3 hover:text-blue-600 cursor-pointer">
+            <FaInfoCircle /> Help Centre
+          </li>
+          <li
+            onClick={handleLogout}
+            className="flex items-center gap-3 text-red-600 hover:text-red-700 cursor-pointer"
+          >
+            <FaSignOutAlt /> Logout
+          </li>
+        </ul>
+      </div>
+
+      {/* 📦 Retail Master Section */}
+      <div>
+        <h2 className="text-lg font-semibold text-blue-800 mb-3">Retail Master</h2>
+        <ul className="space-y-3 text-gray-700 text-sm font-medium">
+          <li className="flex items-center gap-3 hover:text-blue-600 cursor-pointer">
+            <FaBox /> Category
+          </li>
+          <li className="flex items-center gap-3 hover:text-blue-600 cursor-pointer">
+            <FaMotorcycle /> Delivery Boys
+          </li>
+          <li className="flex items-center gap-3 hover:text-blue-600 cursor-pointer">
+            <FaTags /> Coupons
+          </li>
+          <li className="flex items-center gap-3 hover:text-blue-600 cursor-pointer">
+            <FaAndroid /> Delivery Boy APK
+          </li>
+          <li className="flex items-center gap-3 hover:text-blue-600 cursor-pointer">
+            <FaWarehouse /> Warehouse Orders
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Sidebar;
