@@ -34,4 +34,18 @@ A fully responsive, visually appealing React-based dashboard for monitoring orde
 ---
 
 ## 📁 Folder Structure
-
+medinos-dash/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── Layout.js
+│ │ ├── Sidebar.js
+│ │ ├── Topbar.js
+│ │ ├── ProtectedRoute.js
+│ ├── pages/
+│ │ ├── Home.js
+│ │ ├── Login.js
+│ │ ├── RetailMaster.js
+│ ├── App.js
+│ ├── index.js
+│ └── index.css
