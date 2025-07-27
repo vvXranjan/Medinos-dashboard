@@ -1,7 +1,7 @@
 Here is the full **`README.md` code** you can copy-paste into your file:
 
 ````markdown
-# 🛍️ Medinos Retail Master Dashboard
+ 🛍️ Medinos Retail Master Dashboard
 
 A full-featured, visually appealing React dashboard built for monitoring retail order metrics, managing users, and analyzing sales performance.
 
